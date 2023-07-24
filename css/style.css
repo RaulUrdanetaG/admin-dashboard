@@ -1,0 +1,103 @@
+@import url(./normalize.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;700&display=swap');
+
+:root {
+    --font-color: #edeffd;
+    --primary-color: #202528;
+    --background-color: #181a1e;
+    --color-selected: #a3bdcc;
+    --color-light: rgba(0, 0, 0, 0.4);
+    --box-shadow: 0 2rem 3rem var(--color-light);
+    --svg-color: invert(88%) sepia(20%) saturate(156%) hue-rotate(197deg) brightness(104%) contrast(98%);
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Maven Pro', sans-serif;
+    background-color: var(--background-color);
+    color: var(--font-color);
+}
+
+.main-container {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 4fr 2fr;
+    grid-template-rows: 1fr;
+}
+
+.side-bar {
+    margin: 20px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.side-bar h5 {
+    margin: 0;
+}
+
+.side-bar-option,
+.title {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.side-bar-option a:hover{
+    position: relative;
+    left: 5px;
+}
+
+.side-bar-option a{
+    text-decoration: none;
+    color: var(--font-color);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.title img {
+    width: 45px;
+}
+
+.options-container {
+    display: flex;
+    height: 500px;
+    flex: 1;
+    border-radius: 15px;
+    justify-content: center;
+    background-color: var(--primary-color);
+    padding: 10px 0;
+}
+
+.options {
+    display: grid;
+    justify-content: center;
+    padding: 0px 5px;
+    grid-template-rows: repeat(6, 50px) 1fr;
+
+}
+
+.options .log-out {
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+
+.side-bar-option img {
+    width: 20px;
+}
+
+.side-bar img {
+    filter: var(--svg-color);
+}
+
+.active::before {
+    content: '';
+    width: 5px;
+    height: 25px;
+    background-color: var(--color-selected);
+}
+
