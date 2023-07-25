@@ -63,7 +63,7 @@ p {
     display: grid;
     height: 100vh;
     width: 100vw;
-    grid-template-columns: 256px 2fr 1fr;
+    grid-template-columns: 1fr 3fr 2fr;
     grid-template-rows: 1fr;
 }
 
@@ -313,6 +313,7 @@ p {
 .recent-projects a{
     display: flex;
     gap: 4px;
+    padding: 10px;
     justify-self: start;
     justify-content: center;
     align-items: center;
