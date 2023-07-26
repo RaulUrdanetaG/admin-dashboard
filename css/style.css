@@ -398,6 +398,11 @@ p {
     box-shadow: none;
 }
 
+.trending .user:hover{
+    cursor: pointer;
+    scale: 1.1;
+}
+
 .user {
     display: flex;
     align-items: center;
