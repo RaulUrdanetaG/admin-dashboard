@@ -4,7 +4,7 @@
 <div>
   <style>
     display:flex;
-</style>
+  </style>
   <img src="./images/finalApp1.jpeg"/> <img src="./images/finalApp2.jpeg"/> <img src="./images/finalApp3.jpeg"/> <img src="./images/finalApp4.jpeg"/>
 </div>
 
