@@ -2,7 +2,10 @@
 
 
 <div style="display: flex;">
-  <img style="width: 100px;heigth: auto" src="./images/finalApp1.jpeg"/> <img src="./images/finalApp2.jpeg"/> <img src="./images/finalApp3.jpeg"/> <img src="./images/finalApp4.jpeg"/>
+  <img style="width: 300px;heigth: auto" src="./images/finalApp1.jpeg"/> 
+  <img style="width: 300px;heigth: auto" src="./images/finalApp2.jpeg"/> 
+  <img style="width: 300px;heigth: auto" src="./images/finalApp3.jpeg"/> 
+  <img style="width: 300px;heigth: auto" src="./images/finalApp4.jpeg"/>
 </div>
 
 # Learnings
