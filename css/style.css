@@ -433,6 +433,13 @@ p {
     background-color: var(--primary-color);
     padding: 5px;
     border-radius: 100%;
+    box-shadow: var(--box-shadow);
+}
+
+.to-do-noti:hover{
+    box-shadow: none;
+    cursor: pointer;
+    scale: 1.1;
 }
 
 .to-do img {
