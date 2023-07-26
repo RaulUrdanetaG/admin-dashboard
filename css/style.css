@@ -391,6 +391,11 @@ p {
     justify-items: center;
     background-color: var(--primary-color);
     border-radius: 15px;
+    box-shadow: var(--box-shadow);
+}
+
+.trending-container:hover{
+    box-shadow: none;
 }
 
 .user {
@@ -443,6 +448,17 @@ p {
     padding: 10px;
     border-radius: 15px;
     box-shadow: var(--box-shadow);
+}
+
+.to-do-container:hover{
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.to-do-container-add:hover{
+    box-shadow: none;
+    cursor: pointer;
+    border: 2px dashed var(--color-selected);
 }
 
 .to-do-info {
