@@ -1,10 +1,7 @@
 # admin-dashboard
 
 
-<div>
-  <style>
-    display:flex;
-  </style>
+<div style="display: flex;">
   <img src="./images/finalApp1.jpeg"/> <img src="./images/finalApp2.jpeg"/> <img src="./images/finalApp3.jpeg"/> <img src="./images/finalApp4.jpeg"/>
 </div>
 
